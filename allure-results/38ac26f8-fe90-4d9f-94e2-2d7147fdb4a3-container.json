@@ -1,1 +1,0 @@
-{"uuid":"38ac26f8-fe90-4d9f-94e2-2d7147fdb4a3","name":"ClassifyCuisineTest","children":["2fd98cf2-7cad-49e8-9c1e-3068224452c5"],"befores":[{"name":"initTest","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1735136035353,"stop":1735136035831}],"afters":[],"start":1735136035317,"stop":1735136037569}

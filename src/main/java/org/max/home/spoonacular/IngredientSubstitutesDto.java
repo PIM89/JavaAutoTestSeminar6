@@ -1,10 +1,9 @@
-package org.max.home;
+package org.max.home.spoonacular;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
-import javax.annotation.processing.Generated;
 import java.util.List;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
@@ -14,9 +13,7 @@ import java.util.List;
         "substitutes",
         "message"
 })
-@Generated("jsonschema2pojo")
 public class IngredientSubstitutesDto {
-
     @JsonProperty("status")
     private String status;
     @JsonProperty("ingredient")

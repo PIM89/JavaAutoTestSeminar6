@@ -2,30 +2,32 @@
 package org.max.home.accuweather.location;
 
 import java.util.List;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonPropertyOrder({
-    "Version",
-    "Key",
-    "Type",
-    "Rank",
-    "LocalizedName",
-    "EnglishName",
-    "PrimaryPostalCode",
-    "Region",
-    "Country",
-    "AdministrativeArea",
-    "TimeZone",
-    "GeoPosition",
-    "IsAlias",
-    "SupplementalAdminAreas",
-    "DataSets"
+        "Version",
+        "Key",
+        "Type",
+        "Rank",
+        "LocalizedName",
+        "EnglishName",
+        "PrimaryPostalCode",
+        "Region",
+        "Country",
+        "AdministrativeArea",
+        "TimeZone",
+        "GeoPosition",
+        "IsAlias",
+        "SupplementalAdminAreas",
+        "DataSets"
 })
 public class Location {
-
     @JsonProperty("Version")
     private Integer version;
     @JsonProperty("Key")
