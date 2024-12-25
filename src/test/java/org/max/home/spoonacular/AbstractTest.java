@@ -1,4 +1,4 @@
-package org.max.home;
+package org.max.home.spoonacular;
 
 import io.restassured.RestAssured;
 import org.junit.jupiter.api.BeforeAll;
