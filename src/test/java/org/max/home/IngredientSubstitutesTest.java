@@ -19,7 +19,7 @@ public class IngredientSubstitutesTest extends AbstractTest {
     @Description("GET IngredientSubstitutes")
     @Link("")
     @Severity(SeverityLevel.NORMAL)
-    @Owner("Кравченко Максим")
+    @Owner("Иванов Иван")
     @Story(value = "Тестирование метода IngredientSubstitutes")
     void getIngredientSubstitutes_whenValid_shouldReturn() {
         IngredientSubstitutesDto response = given()

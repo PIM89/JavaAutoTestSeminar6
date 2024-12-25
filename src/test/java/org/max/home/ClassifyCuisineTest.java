@@ -19,7 +19,7 @@ public class ClassifyCuisineTest extends AbstractTest {
     @Description("POST IngredientSubstitutes")
     @Link("")
     @Severity(SeverityLevel.NORMAL)
-    @Owner("Кравченко Максим")
+    @Owner("Иванов Иван")
     @Story(value = "Тестирование метода IngredientSubstitutes")
     void postClassifyCuisine_whenValid_shouldReturn() {
         ClassifyCuisineDTO response = given()
